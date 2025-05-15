@@ -1,0 +1,20 @@
+# Ignore dataset files
+/data/*
+!.gitkeep
+
+# Ignore model binaries
+/models/*
+
+# Ignore reports (plots, CSVs)
+ /reports/*
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore environment files
+.env
+venv/
